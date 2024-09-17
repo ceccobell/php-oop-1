@@ -17,4 +17,8 @@
 
     $movie1 = new Movie("Inception", 2010, "Science fiction");
     $movie2 = new Movie("The Matrix", 1999, "Action");
+
+    echo $movie1->getMovieInfo();
+    echo "<br>";
+    echo $movie2->getMovieInfo();
 ?>
