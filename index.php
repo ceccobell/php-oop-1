@@ -9,5 +9,9 @@
             $this->anno_uscita = $_anno_uscita;
             $this->genere = $_genere;
         }
+
+        public function getMovieInfo() {
+            return "Titolo: {$this->titolo}, Genere: {$this->genere}, Anno: {$this->anno_uscita}";
+        }
     }
 ?>
